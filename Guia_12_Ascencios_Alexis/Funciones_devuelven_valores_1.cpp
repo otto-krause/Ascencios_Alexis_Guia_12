@@ -21,8 +21,8 @@ return(num2);
 int main()
 {
 int num1, num2;
-num1 = Num();
-num2 = Num2();
-printf("los numeros ingresados son %d\n",num1);
-printf("los numeros ingresados son  %d\n",num2);
+//num1 = Num();
+//num2 = Num2();
+printf("los numeros ingresados son %d\n", Num());//También puedo realizar la llamada don se muestra el valor si no se necesita para otras peraciones.
+printf("los numeros ingresados son  %d\n", Num2());
 }
